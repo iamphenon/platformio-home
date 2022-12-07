@@ -1,15 +1,29 @@
 {
   "eslint.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
   "eslint.autoFixOnSave": false,
   "[javascript]": {
-    "editor.rulers": [88]
+    "editor.rulers": [
+      88
+    ]
   },
   "[javascriptreact]": {
-    "editor.rulers": [88]
+    "editor.rulers": [
+      88
+    ]
   },
+  "terminal.integrated.splitCwd": "initial",
   "editor.codeActionsOnSave": {
     "source.organizeImports": false
   },
-  "javascript.validate.enable": false
-}
+  "javascript.validate.enable": false,
+  "installVSIX.force": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "sh",
+  "terminal.integrated.defaultProfile.windows": "pwsh", "[powershell]": {
+ 
+  },
